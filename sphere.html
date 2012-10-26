@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Earth</title>
+		<style>
+			body {
+				background: #030303;
+				cursor: pointer;
+				overflow: hidden;
+				padding-top: 150px;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="container"></div>
+
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="js/lib/jquery.mousewheel.js"></script>
+	<script src="js/three.min.js"></script>
+	<script data-main="js/main" src="js/lib/require.js"></script>
+	<script src="js/shaders/CopyShader.js"></script>
+	<script src="js/shaders/VignetteShader.js"></script>
+	<script src="js/postprocessing/EffectComposer.js"></script>
+	<script src="js/postprocessing/MaskPass.js"></script>
+	<script src="js/postprocessing/RenderPass.js"></script>
+	<script src="js/postprocessing/ShaderPass.js"></script>
+</html>
